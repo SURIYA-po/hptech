@@ -202,6 +202,10 @@ nav ul {
   z-index: 997;
   padding: 15px 0;
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+
+}
+#header a {
+  text-decoration: none;
 }
 
 #header .logo {
@@ -217,6 +221,7 @@ nav ul {
 
 #header .logo a {
   color: #5fcf80;
+  
 }
 
 #header .logo img {
@@ -258,7 +263,9 @@ nav ul {
 */
 .navbar {
   padding: 0;
+  
 }
+
 
 .navbar ul {
   margin: 0;
@@ -284,6 +291,7 @@ nav ul {
   color: #37423b;
   white-space: nowrap;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .navbar a i,
@@ -812,37 +820,37 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Courses
+# Services
 --------------------------------------------------------------*/
-.courses .course-item {
+.Services .course-item {
   border-radius: 5px;
   border: 1px solid #eef0ef;
 }
 
-.courses .course-content {
+.Services .course-content {
   padding: 15px;
 }
 
-.courses .course-content h3 {
+.Services .course-content h3 {
   font-weight: 700;
   font-size: 20px;
 }
 
-.courses .course-content h3 a {
+.Services .course-content h3 a {
   color: #00ff5e;
   transition: 0.3s;
 }
 
-.courses .course-content h3 a:hover {
+.Services .course-content h3 a:hover {
   color: #5fcf80;
 }
 
-.courses .course-content p {
+.Services .course-content p {
   font-size: 14px;
   color: #777777;
 }
 
-.courses .course-content h4 {
+.Services .course-content h4 {
   font-size: 14px;
   background: #5fcf80;
   padding: 7px 14px;
@@ -850,31 +858,31 @@ section {
   margin: 0;
 }
 
-.courses .course-content .price {
+.Services .course-content .price {
   margin: 0;
   font-weight: 700;
   font-size: 18px;
   color: #0be95c;
 }
 
-.courses .trainer {
+.Services .trainer {
   padding-top: 15px;
   border-top: 1px solid #eef0ef;
 }
 
-.courses .trainer .trainer-profile img {
+.Services .trainer .trainer-profile img {
   max-width: 50px;
   border-radius: 50px;
 }
 
-.courses .trainer .trainer-profile span {
+.Services .trainer .trainer-profile span {
   padding-left: 10px;
   font-weight: 600;
   font-size: 16px;
   color: #12c84f;
 }
 
-.courses .trainer .trainer-rank {
+.Services .trainer .trainer-rank {
   font-size: 18px;
   color: #10fb6a;
 }
